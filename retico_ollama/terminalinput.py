@@ -9,8 +9,6 @@ import retico_core
 import threading
 from retico_core.text import TextIU
 
-MODEL = "smollm2:360m"  # replace with your installed ollama model id
-
 class TerminalInputModule(retico_core.AbstractProducingModule):
     """Reads input from terminal and emits TextIUs into the pipeline."""
 

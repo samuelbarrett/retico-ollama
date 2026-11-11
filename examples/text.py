@@ -2,7 +2,7 @@ import time
 from retico_ollama import OllamaModule, TerminalInputModule, TerminalOutputModule
 
 terminal_in = TerminalInputModule()
-ollama = OllamaModule(model="llama3.1")
+ollama = OllamaModule(model="llama3.2:1b")
 terminal_out = TerminalOutputModule()
 
 terminal_in.subscribe(ollama)
