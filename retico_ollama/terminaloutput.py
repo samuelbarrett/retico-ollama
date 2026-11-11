@@ -6,7 +6,6 @@ This module provides the ability to print GeneratedTextIUs to the terminal.
 """
 
 import retico_core
-import threading
 from retico_core.text import GeneratedTextIU
 
 from retico_ollama.ollama import ResponseEndIU
